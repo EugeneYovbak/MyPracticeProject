@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cream_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title_BV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_region_BV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_city_BV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_phone_BV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_address_BV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/light_blue"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_link_BV"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_link"
+                android:layout_gravity="center"
+                android:focusable="false" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_map_BV"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_map"
+                android:layout_gravity="center"
+                android:focusable="false" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_phone_BV"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_phone"
+                android:layout_gravity="center"
+                android:focusable="false" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_detail_BV"
+                android:layout_width="60dp"
+                android:layout_height="15dp"
+                android:background="@drawable/ic_next"
+                android:layout_gravity="center"
+                android:focusable="false" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

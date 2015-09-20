@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Converter Lab</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="cash_name">Название валюты</string>
+    <string name="cash_status">Покупка / продажа</string>
+    <string name="map">Карта</string>
+    <string name="link">Сайт</string>
+    <string name="phone">Позвонить</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="info">Current Location Info</string>
+    <string name="action_share">Share</string>
+</resources>
