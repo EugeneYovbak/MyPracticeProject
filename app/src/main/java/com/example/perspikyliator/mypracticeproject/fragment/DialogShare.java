@@ -64,8 +64,6 @@ public class DialogShare extends DialogFragment implements View.OnClickListener 
         btnShare = (Button) view.findViewById(R.id.btn_share_DS);
         btnShare.setOnClickListener(this);
 
-
-
         return view;
     }
 

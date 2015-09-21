@@ -113,9 +113,11 @@ public class InternetAsyncTask extends AsyncTask<String, Integer, BankArray>{
             mCallbackBankInfoLoader.onBankSuccess(bankArray);
         } else
             mCallbackBankInfoLoader.onBankFailure("Error parsing");
-        if (!index && message.equals(MainActivity.SERVICE)) {
+        try {
             mBuilder.setOngoing(false);
             mNotifyManager.notify(id, mBuilder.build());
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
